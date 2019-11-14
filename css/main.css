@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+  font-style: font-family: 'Roboto Condensed', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-style: font-family: 'Roboto Condensed', sans-serif;
+}
