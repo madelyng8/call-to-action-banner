@@ -44,6 +44,7 @@ body {
   font-size: 1.5rem;
   margin: 0;
   margin-top: .3rem;
+  line-height: 1.4;
 }
 
 .btn:hover {
@@ -52,6 +53,7 @@ body {
 
 .btn-big {
   font-size: 1.5rem;
+  margin-top: 1em;
 }
 
 .btn {
@@ -60,7 +62,7 @@ body {
   border: solid 3px #333;
   border-radius: 7px;
   text-decoration: none;
-  border-width: 3px;
+  border-width: 7px;
   padding: .5rem .7em;
   display: inline-block;
 }
@@ -70,13 +72,12 @@ body {
   width: 100%;
   display: flex;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -50%);
   justify-content: space-between;
   padding-right: 1.5em;
   padding-left: 1em;
   align-items: flex-start;
-  padding-bottom: .4em;
-  margin: 0;
+  padding-bottom: .8em;
 }
